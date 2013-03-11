@@ -1,0 +1,14 @@
+Source: e17-run
+Section: config
+Priority: extra
+Maintainer: Ryan Kuester <rkuester@insymbols.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Vcs-Git: http://git.pragmatux.org/e17-run.git
+Vcs-Browser: http://git.pragmatux.org/e17-run.git
+
+Package: e17-run
+Architecture: all
+Depends: systemd, e17, ${misc:Depends}
+Description: Run e17
+ This is configuration for running e17 by means of systemd.

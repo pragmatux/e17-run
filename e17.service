@@ -1,0 +1,11 @@
+[Unit]
+Description=Enlightenment
+Requires=xorg.service
+After=xorg.service
+
+[Service]
+ExecStart=/usr/bin/enlightenment_start
+Environment=DISPLAY=:0
+
+[Install]
+WantedBy=graphical.target

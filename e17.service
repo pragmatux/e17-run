@@ -5,7 +5,7 @@ After=xorg.service
 
 [Service]
 ExecStart=/usr/bin/enlightenment_start
-Environment=DISPLAY=:0
+Environment=DISPLAY=:0 HOME=/var/lib/e17/system E_HOME=conf
 
 [Install]
 WantedBy=graphical.target

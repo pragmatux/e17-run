@@ -1,3 +1,9 @@
+e17-run (1.1) unstable; urgency=low
+
+  * Use a non-volatile configuration directory
+
+ -- Ryan Kuester <rkuester@insymbols.com>  Thu, 14 Mar 2013 22:37:09 +0000
+
 e17-run (1.0) unstable; urgency=low
 
   * Initial release
